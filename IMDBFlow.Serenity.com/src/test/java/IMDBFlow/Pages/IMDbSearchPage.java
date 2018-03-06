@@ -17,7 +17,7 @@ public class IMDbSearchPage extends PageObject{
 	public IMDbSearchPage clickMostPopularTVShowsOnIMDb()
 	{
 		navigationMoviesMenu.click();
-		new WebDriverWait(driver,10).until(ExpectedConditions.elementToBeClickable(popularTVShowsonIMDb)).click();
+		new WebDriverWait(getDriver(),10).until(ExpectedConditions.elementToBeClickable(popularTVShowsonIMDb)).click();
 		return this;
 	}
 	

@@ -11,6 +11,7 @@ public class IMDbHomePage extends PageObject {
 	
 	public void clickOtherSignInOptionsLinkk() {
 		otherSignInoptionss.click();
+		
 	}
 	
 	
